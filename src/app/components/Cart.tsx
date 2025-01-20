@@ -26,10 +26,10 @@ const Cart = ({ setShowCart}:CartProps) => {
     return total;
     };
     return(
-        <div className="w-full min-h-screen fixed left-0 top-0 z-20 overflow-y-scroll">
-            <div className="max-w-[400px] w-full min-h-full bg-gray-600 absolute right-0 top-0 p-6">
+        <div className="w-full min-h-screen fixed top-0 overflow-y-scroll mr-8">
+            <div className="max-w-[400px] w-full min-h-full bg-gray-600 absolute right-2 top-0 p-6 px-8">
                 <RxCross1
-                className="absolute right-0 top-0 m-6 text-[24px] cursor-pointer"
+                className="absolute right-0 top-0 m-6 ml-6 text-[24px] cursor-pointer"
                 onClick={() => setShowCart(false)}
                 />
                 <h3 className="pt-6 text-lg font-bold uppercase">
