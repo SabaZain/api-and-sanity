@@ -45,7 +45,7 @@ if(data.length === 0) return <div className='font-bold'>Loading products...</div
       <div className='flex flex-col md:flex-row lg:flex-row gap-6 p-6 mx-6'>
         <h1 className='text-3xl text-center md:text-center lg:text-center md:text-4xl lg:text-4xl font-semibold mt-20'>Products List</h1>
       </div>
-    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-white'>
+    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-white px-3'>
       {data.map((product, index) => (
       <div key={index} className='max-w-sm mx-auto border border-black rounded-lg shadow-inner overflow-hidden m-2 hover:bg-lime-700'>
         <Image 
