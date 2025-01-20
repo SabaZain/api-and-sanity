@@ -73,6 +73,13 @@ const data = [
         price: 65.00
         
     },
+    {
+        img: "/Image/Sofa.png",
+        title: "Sofa Comfortable Chair",
+        desc: "$32.00",
+        price: 780.00
+        
+    },
 ];
 
 const Shop = () => {

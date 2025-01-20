@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const UniqueFeatures = () => {
   return (
@@ -16,7 +17,9 @@ const UniqueFeatures = () => {
             blocks and machine nails</li>
             <li className='text-green-700'>Arms, backs and seats are structurally reinforced</li>
             <div className='flex items-center gap-3'>
-                <button className='bg-main text-[#F1F1F1] text-[17px] mt-4 p-2 rounded-md'>Add To Cart</button>
+              <Link href="/Shop">
+                <button className='bg-main text-[#F1F1F1] text-[17px] mt-4 p-2 rounded-md'>Add to Shop</button>
+                </Link>
                 <div className='pt-3'>
                 <button className='text-secondary'>B&B Italian Sofa</button>
                 <button className='text-secondary'>$32.00</button>
