@@ -18,7 +18,7 @@ const Topbar = ({setShowCart}: TopbarProps) => {
     {/*Topbar*/}
   return ( 
     
-    <div className='bg-primary md:flex lg:flex justify-around align items-center w-full p-2 px-7 md:px-40 lg:px-40'>
+    <div className='bg-primary md:flex lg:flex justify-around align items-center w-full p-2 px-5 md:px-40 lg:px-40'>
         <div className='flex gap-6'>
         <div className='flex justify-start align items-center gap-2'>
         <IoMailOutline className='text-[#F1F1F1]'/>
