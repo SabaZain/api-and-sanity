@@ -28,7 +28,7 @@ const DiscountItems = () => {
             <TiTick />   <p>Material expose like metals</p>
             </div>
             <div className='md:mr-32 lg:mr-32 md:text-center mt-4 lg:text-center'>
-            <button className='bg-main text-white font-semibold border-sm p-1 mt-4 ml-24 md:ml-36 lg:ml-36 rounded-sm'>Shop Now</button>
+            <button className='bg-main text-white font-semibold border-sm p-1 mt-4 ml-20 md:ml-36 lg:ml-36 rounded-sm'>Shop Now</button>
             </div>
         </div>
       <div>

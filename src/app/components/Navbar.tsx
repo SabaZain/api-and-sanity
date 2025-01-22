@@ -41,7 +41,7 @@ const Navbar = () => {
         </div>
         {isOpen && (
             
-            <div id="mobile-menu" className='md:hidden lg:hidden bg-orange-400 p-1 rounded-md'>
+            <div id="mobile-menu" className='md:hidden lg:hidden bg-orange-400 p-1 pl-0.5 -ml-3 rounded-md'>
             <ul className='flex-col gap-2'>
             <li className='menuLink hover:text-blue-900'><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
              <li className='menuLink hover:text-blue-900'><Link href="/Products" onClick={() => setIsOpen(false)}>Products</Link></li>
