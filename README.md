@@ -1,3 +1,16 @@
+6-Day Work Report
+This project was developed over a span of six days, with each day focusing on specific tasks related to the E-Commerce platform.Below is a summary of the work completed each day:
+
+Day 1 - Created a detailed business plan for the e-commerce platform, selected the marketplace for development and setup the folder structure and organized in notes folder.
+Day 2 - Worked on the Technical foundation for the selected marketplace, developed the design system structure for the project and setup the folder organized in documentation folder.
+Day 3 - Integrated API and setup the necessary configurations for the platform, Installed Sanity for content management and imported data into studio.The report and relevant files are in day3-report folder.
+Day 4 - Focused on developing dynamic components for the platform.Detailed report and screenshots of the work are stored in the day4-report and day4-screenshots folder.
+Day 5 - Conducted testing on the platform and refined the backend.Screenshots of testing and refinement are included in the day5-report folder.
+Day 6 - Prepared the project for deployment, setup the staging environment for testing and deployment purposes.Report for this day is in the day6-report folder.
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
