@@ -49,10 +49,10 @@ const LatestProducts = () => {
   return (
     <div className='pt-4'>
     <div>
-      <h1 className='text-2xl text-secondary text-center font-semibold'>Leatest Products</h1>
+      <h1 className='text-2xl text-secondary text-start md:text-center lg:text-center font-semibold'>Leatest Products</h1>
     </div>
     <div>
-        <ul className='flex justify-center align items-center gap-6 mt-4'>
+        <ul className='flex justify-start md:justify-center lg:justify-center align items-center gap-6 mt-4'>
             <li className='text-main'>New Arrival</li>
             <li className='text-secondary'>Best Seller</li>
             <li className='text-secondary'>Featured</li>
