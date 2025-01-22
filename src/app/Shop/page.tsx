@@ -23,11 +23,12 @@ const data = [
         price: 65.00
     },
     {
-        img: "/Image/TP1.svg",
-        title: "Comfort Handy Craft",
-        desc: "$42.00",
+        img: "/Image/smartwatch.svg",
+        title: "Smart Watch",
+        desc: "$50.00",
         price: 65.00
     },
+    
     {
         img: "/Image/camera.svg",
         title: "Camera",
@@ -40,10 +41,11 @@ const data = [
         desc: "$50.00",
         price: 65.00
     },
+    
     {
-        img: "/Image/smartwatch.svg",
-        title: "Smart Watch",
-        desc: "$50.00",
+        img: "/Image/TP1.svg",
+        title: "Comfort Handy Craft",
+        desc: "$42.00",
         price: 65.00
     },
     {
@@ -86,7 +88,7 @@ const Shop = () => {
   return (
     <div className='pt-4'>
     <div>
-      <h1 className='text-3xl text-secondary text-center font-semibold'>Shop</h1>
+      <h1 className='text-3xl text-secondary text-start md:text-center lg:text-center pl-6 md:pl-0 lg:pl-0 font-semibold'>Shop</h1>
     </div>
     
     <div className='pt-10'>

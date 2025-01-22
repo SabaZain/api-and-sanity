@@ -11,7 +11,8 @@ interface propsType {
 
 const Card1 = ({img, title, desc, price}:propsType) => {
   return (
-    <div className='py-4 px-14 md:px-4 lg:px-6 mx-10 md:mx-6 lg:mx-6 text-center bg-[#F6F7FB]'>
+    <div className='mx-16 md:mx-0 lg:mx-0 ml-4 md:ml-0 lg:ml-0'>
+    <div className='py-4 pl-2 px-14 md:px-4 lg:px-6 mx-12 -ml-1 md:mx-6 lg:mx-6 text-center bg-[#F6F7FB]'>
       <Image 
       className="h-[100px] w-auto px-24 py-1"
       src={img} 
@@ -20,7 +21,7 @@ const Card1 = ({img, title, desc, price}:propsType) => {
       alt={title}
       />
       <div className='flex'>
-      <div className='flex justify-between align items-center gap-16 px-4 m-3 bg-white'>
+      <div className='flex justify-between align items-center gap-16 px-4 mr-2 m-3 bg-white'>
         <h2 className='text-[18px] text-secondary font-bold'>{title}</h2>
         <div className='flex gap-1'>
         <p className='text-secondary text-[14px]'>{desc}</p>
@@ -29,7 +30,7 @@ const Card1 = ({img, title, desc, price}:propsType) => {
       </div>
       </div>
     </div>
-    
+    </div>
   )
 }
 
