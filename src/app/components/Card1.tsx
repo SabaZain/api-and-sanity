@@ -11,7 +11,7 @@ interface propsType {
 
 const Card1 = ({img, title, desc, price}:propsType) => {
   return (
-    <div className='py-4 px-16 md:px-4 lg:px-6 mx-4 md:mx-6 lg:mx-6 text-center bg-[#F6F7FB]'>
+    <div className='py-4 px-14 md:px-4 lg:px-6 mx-10 md:mx-6 lg:mx-6 text-center bg-[#F6F7FB]'>
       <Image 
       className="h-[100px] w-auto px-24 py-1"
       src={img} 

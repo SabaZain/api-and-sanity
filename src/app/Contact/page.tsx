@@ -112,7 +112,7 @@ const ContactPage = () => {
             )}
  
       <div>
-        <Image src="/Image/contact.svg" alt="contact image" width={400} height={400}/>
+        <Image src="/Image/contact.svg" alt="contact image" width={400} height={400} className='px-2'/>
       </div>
       </div>
     </div>
