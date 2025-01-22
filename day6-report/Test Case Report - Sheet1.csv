@@ -1,0 +1,25 @@
+Testing Report,,,,,,,,
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate Product Listing Page,Open Products Page,"Products displayed
+ on front-end correctly","Displayed Products
+correctly",Passed,Low,-,"Step performed
+successfully"
+TC002,Test API,Open & Display API,Display & Workable,Not Workable,Failed,High,-,Handled Gracefully by Mock API
+TC003,Sanity Installation,Install & Workable,Data Import & Display on Studio,Workable,Passed,Medium,-,"Step performed
+successfully"
+TC004,Validate all Required Pages Open,"Open Pages On Click 
+Through Link",All Required Pages Display,Display as Expected,Passed,Low,-,"Step performed
+successfully"
+TC005,Creation Of Components,Reusable Components,Reused Properly,Workable,Passed,Low,-,"Step performed
+successfully"
+TC006,Check Cart Functionality,"Add & Remove Products 
+To Cart","Cart Functionality Works 
+Properly","Functionality works
+as required",Passed,Low,-,"Step performed
+successfully"
+TC007,Styling Front-end/UI,Tailwind CSS Implementation,Eye catching Front-end,Workable,Passed,Medium,-,"Step performed
+successfully"
+TC008,"Ensure Responsiveness On 
+Laptops & Mobile",Resize Browser Window,Layout Adjust to Screen Size,"Responsive Layout
+as Expected",Passed,Medium,-,"Step performed
+successfully"
