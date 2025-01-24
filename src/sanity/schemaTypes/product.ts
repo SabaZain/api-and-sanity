@@ -34,6 +34,15 @@ export default {
           Rule.max(150).warning('Keep the description under 150 characters.'),
       },
       {
+        name: 'slug',
+        type: 'slug',
+        title: 'Slug',
+        options: {
+          source: 'name',
+          maxLength: 200
+        }
+      },
+      {
         name: 'discountPercentage',
         type: 'number',
         title: 'Discount Percentage',
