@@ -49,7 +49,7 @@ export default async function Page({ params: { slug } }: { params: { slug: strin
       </p>
       
       <p className="text-center text-2xl text-green-900">Price After Discount: ${data.price}</p>
-      <p className="text-center text-xl text-red-900">Discount Percentage:  ${data.discountPercentage}%</p>
+      <p className="text-center text-xl text-red-900">Discount Percentage:  {data.discountPercentage}%</p>
     </div>
   );
 }
