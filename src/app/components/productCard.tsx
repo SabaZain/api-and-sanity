@@ -9,14 +9,14 @@ import { addToCart } from '@/redux/features/cartSlice';
 import { useAppDispatch } from '@/redux/features/hooks';
 
 export interface IProduct {
-  id: number;
+  id: number | string;
   img: string;
   name: string;
-  price: number;
-  category:string[];
+  price: string;
+  quantity: number;
 }
 
-const ProductCard = ({id, img, name, price, category}: IProduct) => {
+const ProductCard = ({id, img, name, price}: IProduct) => {
 
   const router = useRouter();
   const dispatch = useAppDispatch()
@@ -139,7 +139,7 @@ return (
       </div>
     </div>
     {getRating()}
-    <h1>{category}</h1>
+    
 <h2 className='font-medium pb-3 hover:text-accent'>{name}</h2>
 <p className='text-gray-800 font-light'>${price}.00</p>
   </div>

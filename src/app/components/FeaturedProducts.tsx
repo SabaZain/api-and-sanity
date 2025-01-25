@@ -6,25 +6,25 @@ const data = [
         img: "/Image/product1.svg",
         title: "Cantilever chair",
         desc: "Code - Y523201",
-        price: 42.00
+        price: "42.00"
     },
     {
         img: "/Image/product2.svg",
         title: "Cantilever chair",
         desc: "Code - Y523201",
-        price: 42.00
+        price: "42.00"
     },
     {
         img: "/Image/product3.svg",
         title: "Cantilever chair",
         desc: "Code - Y523201",
-        price: 42.00
+        price: "42.00"
     },
     {
         img: "/Image/product4.svg",
         title: "Cantilever chair",
         desc: "Code - Y523201",
-        price: 42.00
+        price: "42.00"
     },
 ];
 

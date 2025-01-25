@@ -5,22 +5,22 @@ const data = [
     {
         img: "/Image/tc4.svg",
         title: "Mini LCW Chair",
-        price: 56.00
+        price: "56.00"
     },
     {
         img: "/Image/tc2.svg",
         title: "Mini LCW Chair",
-        price: 56.00
+        price: "56.00"
     },
     {
         img: "/Image/tc3.svg",
         title: "Mini LCW Chair",
-        price: 56.00
+        price: "56.00"
     },
     {
         img: "/Image/tc4.svg",
         title: "Mini LCW Chair",
-        price: 56.00
+        price: "56.00"
     },
 ];
 

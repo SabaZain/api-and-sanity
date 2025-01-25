@@ -17,11 +17,9 @@ interface IProduct {
     img: string;
     name: string;
     desc: string;
-    price: number;
+    price: string;
     category: string[];
 }
-
-
 
 const DetailPage = () => {
 

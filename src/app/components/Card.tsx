@@ -5,7 +5,7 @@ interface propsType {
     img: string;
     title: string;
     desc: string;
-    price: number;
+    price: string;
     
 }
 

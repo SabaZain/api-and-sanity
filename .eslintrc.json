@@ -1,12 +1,17 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "prettier"
+  ],
   "rules": {
-    "no-unused-vars": "off",
+    "no-unused-vars": "warn",
     "@typescript-eslint/no-explicit-any": "warn",
     "react/no-unescaped-entities": "off",
     "no-console": "warn",
-    "import/no-anonymous-default-export": "off"
-    
+    "prettier/prettier": "error"
   }
 }
-

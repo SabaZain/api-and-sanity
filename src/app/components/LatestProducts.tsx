@@ -6,41 +6,41 @@ const data = [
         img: "/Image/LP1.svg",
         title: "Comfort Handy Craft",
         desc: "$42.00",
-        price: 65.00
+        price: "65.00"
     },
     {
         img: "/Image/LP22.svg",
         title: "Comfort Handy Craft",
         desc: "$42.00",
-        price: 65.00
+        price: "65.00"
         
     },
     {
         img: "/Image/LP3.svg",
         title: "Comfort Handy Craft",
         desc: "$42.00",
-        price: 65.00
+        price: "65.00"
         
     },
     {
         img: "/Image/LP4.svg",
         title: "Comfort Handy Craft",
         desc: "$42.00",
-        price: 65.00
+        price: "65.00"
         
     },
     {
         img: "/Image/LP5.svg",
         title: "Comfort Handy Craft",
         desc: "$42.00",
-        price: 65.00
+        price: "65.00"
         
     },
     {
         img: "/Image/LP6.svg",
         title: "Comfort Handy Craft",
         desc: "$42.00",
-        price: 65.00
+        price: "65.00"
         
     },
 ];

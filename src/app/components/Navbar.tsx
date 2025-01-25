@@ -1,10 +1,10 @@
 "use client"
 import React from 'react'
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { IoIosSearch } from "react-icons/io";
 import { useState } from 'react';
 import { IoMenu } from "react-icons/io5";
 import Link from 'next/link';
+import SearchComponent from './Search';
 
 
 const Navbar = () => {
@@ -41,7 +41,7 @@ const Navbar = () => {
         </div>
         {isOpen && (
             
-            <div id="mobile-menu" className='md:hidden lg:hidden bg-orange-400 p-1 pl-0.5 -ml-3 rounded-md'>
+            <div id="mobile-menu" className='md:hidden lg:hidden bg-main p-1 pl-0.5 -ml-3 rounded-md'>
             <ul className='flex-col gap-2'>
             <li className='menuLink hover:text-blue-900'><Link href="/" onClick={() => setIsOpen(false)}>Home</Link></li>
              <li className='menuLink hover:text-blue-900'><Link href="/Products" onClick={() => setIsOpen(false)}>Products</Link></li>
@@ -53,14 +53,9 @@ const Navbar = () => {
           
         )}
 
-    <div className='hidden md:flex lg:flex'>
-     <input 
-     type="text"
-     placeholder=''
-     className='border border-slate-400'
-     />
-     <IoIosSearch size={30} className='bg-main text-[#F1F1F1]' />
-   </div>
+<div className='hidden md:flex lg:flex'>
+<SearchComponent/>
+</div>
      </div>
   )
 }

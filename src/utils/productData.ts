@@ -4,7 +4,8 @@ const productData = [
         img: "/Image/product1.svg",
         name: "Cantilever chair",
         desc: "The Cantilever Chair features a sleek, modern design with a sturdy frame and flexible support, providing both comfort and style.",
-        price: 42.00,
+        price: "42.00",
+        quantity: 5,
         category: ["Featured Products"],
     },
     {
@@ -12,7 +13,8 @@ const productData = [
         img: "/Image/product2.svg",
         name: "Cantilever chair",
         desc: "The Cantilever Chair features a sleek, modern design with a sturdy frame and flexible support, providing both comfort and style.",
-        price: 42.00,
+        price: "42.00",
+        quantity: 5,
         category: ["Featured Products"],
     },
     {
@@ -20,7 +22,8 @@ const productData = [
         img: "/Image/product3.svg",
         name: "Cantilever chair",
         desc: "The Cantilever Chair features a sleek, modern design with a sturdy frame and flexible support, providing both comfort and style.",
-        price: 42.00,
+        price: "42.00",
+        quantity: 5,
         category: ["Featured Products"],
     },
     {
@@ -28,7 +31,8 @@ const productData = [
         img: "/Image/product4.svg",
         name: "Cantilever chair",
         desc: "The Cantilever Chair features a sleek, modern design with a sturdy frame and flexible support, providing both comfort and style.",
-        price: 42.00,
+        price: "42.00",
+        quantity: 5,
         category: ["Featured Products"],
     },
     {
@@ -36,7 +40,8 @@ const productData = [
         img: "/Image/LP1.svg",
         name: "Comfort Handy Craft",
         desc: "The Comfort Handy Craft Chair offers a stylish and ergonomic seating solution, combining comfort and craftsmanship for a cozy and durable experience.",
-        price: 42.00,
+        price: "42.00",
+        quantity: 5,
         category: ["Latest Products"],
     },
     {
@@ -44,7 +49,8 @@ const productData = [
         img: "/Image/LP22.svg",
         name: "Comfort Handy Craft",
         desc: "The Comfort Handy Craft Chair offers a stylish and ergonomic seating solution, combining comfort and craftsmanship for a cozy and durable experience.",
-        price: 42.00,
+        price: "42.00",
+        quantity: 5,
         category: ["Latest Products"],
         
     },
@@ -53,7 +59,8 @@ const productData = [
         img: "/Image/LP3.svg",
         name: "Comfort Handy Craft",
         desc: "The Comfort Handy Craft Chair offers a stylish and ergonomic seating solution, combining comfort and craftsmanship for a cozy and durable experience.",
-        price: 42.00,
+        price: "42.00",
+        quantity: 5,
         category: ["Latest Products"],
         
     },
@@ -62,7 +69,8 @@ const productData = [
         img: "/Image/LP4.svg",
         name: "Comfort Handy Craft",
         desc: "The Comfort Handy Craft Chair offers a stylish and ergonomic seating solution, combining comfort and craftsmanship for a cozy and durable experience.",
-        price: 42.00,
+        price: "42.00",
+        quantity: 5,
         category: ["Latest Products"],
         
     },
@@ -71,7 +79,8 @@ const productData = [
         img: "/Image/LP5.svg",
         name: "Comfort Handy Craft",
         desc: "The Comfort Handy Craft Chair offers a stylish and ergonomic seating solution, combining comfort and craftsmanship for a cozy and durable experience.",
-        price: 42.00,
+        price: "42.00",
+        quantity: 5,
         category: ["Latest Products"],
         
     },
@@ -80,7 +89,8 @@ const productData = [
         img: "/Image/LP6.svg",
         name: "Comfort Handy Craft",
         desc: "The Comfort Handy Craft Chair offers a stylish and ergonomic seating solution, combining comfort and craftsmanship for a cozy and durable experience.",
-        price: 42.00,
+        price: "42.00",
+        quantity: 5,
         category: ["Latest Products"],
         
     },
