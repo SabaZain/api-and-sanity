@@ -51,7 +51,7 @@ const ProductsPage: React.FC = () => {
             "imageUrl": image.asset->url
           }`
         );
-        setData(shuffleArray(fetchedData).slice(0, 41));
+        setData(shuffleArray(fetchedData).slice(0, 21));
         setLoading(false);
       } catch (error) {
         console.error("Error fetching products:", error);
@@ -67,7 +67,7 @@ const ProductsPage: React.FC = () => {
     setSelectedTab(index);
 
     if (category === "ALL") {
-      setData(shuffleArray(data).slice(0, 41));
+      setData(shuffleArray(data).slice(0, 21));
       return;
     }
 
