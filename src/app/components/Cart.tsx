@@ -45,7 +45,7 @@ const Cart = ({ setShowCart}:CartProps) => {
     
     return(
         <div className="w-full min-h-screen fixed top-0 z-20 overflow-y-scroll">
-            <div className="max-w-[400px] w-full min-h-full bg-gray-600 absolute right-0 top-0 p-6 mr-4 md:mr-0 lg:mr-0">
+            <div className="max-w-[400px] w-full min-h-full bg-gray-600 absolute right-0 top-0 p-6 mr-5 md:mr-0 lg:mr-0">
                 <RxCross1
                 className="absolute right-0 top-0 m-6 mx-10 text-[24px] cursor-pointer"
                 onClick={() => setShowCart(false)}
@@ -75,7 +75,7 @@ const Cart = ({ setShowCart}:CartProps) => {
                 {totalAmount > 0 ? (
                 <Link href="/Checkout?totalAmount=${totalAmount}">
                 <button 
-                className="bg-black text-white text-center w-full rounded-3xl py-2 px-2
+                className="bg-black text-white text-center w-full rounded-3xl py-2 px-2 mx-2
                 hover:bg-accent mb-4 mt-4"
                 onClick={handleCheckout}
                 >
