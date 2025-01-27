@@ -54,8 +54,8 @@ const Footer = () => {
         </div>
       
     </div>
-    <div className='flex flex-col md:flex-row lg:flex-row justify-start md:justify-between lg:justify-between px-48 bg-[#E7E4F8]'>
-    <p className='text-start md:text-center lg:text-center text-[12px] md:text-[16px] lg:text-[16px] font-bold'>©Webecy-All Rights Reserved</p>
+    <div className='w-full h-full flex flex-col md:flex-row lg:flex-row justify-start md:justify-between lg:justify-between px-48 bg-[#E7E4F8]'>
+    <p className='text-center md:text-center lg:text-center text-[12px] md:text-[16px] lg:text-[16px] font-bold'>©Webecy-All Rights Reserved</p>
     <div className='flex justify-center align items-center gap-2'>
     <FaFacebook />
     <AiFillInstagram />

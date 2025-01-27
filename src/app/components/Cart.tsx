@@ -45,16 +45,16 @@ const Cart = ({ setShowCart}:CartProps) => {
     
     return(
         <div className="w-full min-h-screen fixed top-0 z-20 overflow-y-scroll">
-            <div className="max-w-[400px] w-full min-h-full bg-gray-600 absolute right-0 top-0 p-6">
+            <div className="max-w-[400px] w-full min-h-full bg-gray-600 absolute right-0 top-0 p-6 mr-10 md:mr-0 lg:mr-0">
                 <RxCross1
-                className="absolute right-0 top-0 m-6 text-[24px] cursor-pointer"
+                className="absolute right-0 top-0 m-6 mx-10 text-[24px] cursor-pointer"
                 onClick={() => setShowCart(false)}
                 />
                 <h3 className="pt-6 text-lg font-bold uppercase">
                 Your Cart
                 </h3>
 
-                <div className="mt-6 space-y-2">
+                <div className="mt-6 space-y-2 px-5">
                  {products?.map((item:CartProductType) => (
                     <CartProduct
                     key={item.id}
@@ -67,7 +67,7 @@ const Cart = ({ setShowCart}:CartProps) => {
                  ))}
                 </div>
 
-                <div className="flex justify-between items-center font-medium text-xl py-4">
+                <div className="flex justify-between items-center font-medium text-xl py-4 px-5">
                     <p>Total:</p>
                     <p>${getTotal()}.00</p>
                 </div>
@@ -83,7 +83,7 @@ const Cart = ({ setShowCart}:CartProps) => {
                 </button>
                 </Link>
             ) : (
-                <div className="text-center text-red-700 font-semibold">
+                <div className="text-center text-[20px] text-red-700 font-semibold">
                 Please select products to add in cart.
                 </div>
             )}
