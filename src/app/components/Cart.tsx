@@ -50,7 +50,7 @@ const Cart = ({ setShowCart}:CartProps) => {
                 className="absolute right-0 top-0 m-6 mx-10 text-[24px] cursor-pointer"
                 onClick={() => setShowCart(false)}
                 />
-                <h3 className="pt-6 text-lg font-bold uppercase">
+                <h3 className="pt-6 pl-3 text-lg font-bold uppercase">
                 Your Cart
                 </h3>
 
@@ -75,7 +75,7 @@ const Cart = ({ setShowCart}:CartProps) => {
                 {totalAmount > 0 ? (
                 <Link href="/Checkout?totalAmount=${totalAmount}">
                 <button 
-                className="bg-black text-white text-center w-full rounded-3xl py-2
+                className="bg-black text-white text-center w-full rounded-3xl py-2 px-2
                 hover:bg-accent mb-4 mt-4"
                 onClick={handleCheckout}
                 >
